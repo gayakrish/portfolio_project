@@ -1,0 +1,108 @@
+.header-content {
+	max-width: 800px;
+	margin-bottom: 1em;
+	border-bottom: 3px solid #f8981c;
+	margin: auto;
+}
+
+.logo {
+	max-width: 100%;
+	height: 100%;
+	vertical-align: middle;
+	padding-top: 1em;
+}
+
+.name {
+	text-align: right;
+	font-family: 'Dosis', sans-serif;	
+	color: #4e5256;
+}
+
+article {
+	max-width: 800px;
+	margin: auto;
+	color: #918d84;	
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: small;
+}
+
+.main-image {
+	margin-top: 15px;
+}
+
+.img-responsive {
+	width: 100%;
+	height: 100%;
+	margin: 10px 0px 10px 0px;
+}
+
+h2 {
+	padding-left: 10px;
+}
+
+figcaption {
+	text-align: center;
+}
+
+p {
+	text-transform: uppercase;
+	font-size: medium;
+}
+
+footer {
+	max-width: 800px;
+	margin: auto;
+	text-align: center;
+}
+
+[class*="zocial-"]:before {
+  color: black;
+  display: inline-block;
+  font-family: 'zocial', sans-serif;
+  font-size: 2em;
+  text-shadow: 3px 3px 3px #aaa;
+  width: 2em;
+}
+
+a:hover [class*="zocial-"]:before {
+  color: #3d85c6;
+}
+
+div#social a {
+  margin: 0 1em 0 0;
+}
+
+div#social a:last-of-type {
+  margin: 0;
+}
+
+/*aligning the header content center and one below the other*/
+@media screen and (max-width: 991px) {
+	.name, .logo {
+		text-align: center;
+	}
+
+	/*to avoid overlapping of the github text in smaller screen sizes*/
+	figcaption {
+	overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    width:100%;
+    display:block;
+	}
+
+	/*resizing the social media font for smaller screen sizes*/
+	[class*="zocial-"]:before {
+		font-size: 1em;
+	}
+
+	h2 {
+		text-align: center;
+		font-size: 1em;
+	}
+
+	.project-image {
+		width: 80%;
+		margin: auto;
+	}
+}
