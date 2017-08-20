@@ -85,10 +85,10 @@ div#social a:last-of-type {
   /*to avoid overlapping of the github text in smaller screen sizes*/
   figcaption {
     overflow:hidden;
-      white-space:nowrap;
-      text-overflow:ellipsis;
-      width:100%;
-      display:block;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    width:100%;
+    display:block;
   }
 
   /*resizing the social media font for smaller screen sizes*/
