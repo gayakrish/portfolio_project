@@ -14,14 +14,14 @@
 
 .name {
   text-align: right;
-  font-family: 'Dosis', sans-serif;  
+  font-family: 'Dosis', sans-serif;
   color: #4e5256;
 }
 
 article {
   max-width: 800px;
   margin: auto;
-  color: #918d84;  
+  color: #918d84;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: small;
 }
