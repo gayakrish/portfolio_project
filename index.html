@@ -11,31 +11,64 @@
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
   <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=zocial" />
 
-<!-- css styling files -->
+	<!-- css styling files -->
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </head>
 
 <body>
+
 	<div class="container-fluid">
 
 <!-- this section includes the header - logo and name -->
 		<header class="header-content">
 				<div class="row">
-	    		<div class="col-md-2 logo"> <img src="img/udacity_logo.png" alt="Profile Image"> </div>
+
+	    		<div class="col-md-2 logo">
+		    		<picture>
+							<source media="(min-width: 750px)" srcset="img/udacity_logo-1600-large.png 2x, img/udacity_logo-900-medium.png 1x" />
+		      		<source media="(max-width: 450px)" srcset="img/udacity_logo-600-small.png" />
+		      		<img src="img/udacity_logo.png" alt="Profile Image">
+	      		</picture>
+      		</div>
+
+	    		<!-- <img src="img/udacity_logo.png" alt="Profile Image"> </div> -->
 	    		<div class="col-md-10 name">
 	   				<h1> Gayathri Krishnamurthy </h1>
 	   				<h4> Web Developer </h4>
 	  			</div>
 	  		</div>
+
 		</header>
+
+		<!-- navbar with social media icons -->
+		<nav class="navbar social">
+		  <div class="container-fluid navbar-right">
+				 <ul class="nav navbar-nav social">
+            <li><a href="http://www.facebook.com" target="_blank"><i class="fa fa-lg fa-facebook"></i></a></li>
+            <li><a href="skype:gaya_krish?call"><i class="fa fa-lg fa-skype"></i></a></li>
+            <li><a href="mailto:g3.krish@gmail.com"><i class="fa fa-lg fa-envelope-square"></i></a></li>
+            <li><a href="http://linkedin.com/in/gayakrish" target="_blank"><i class="fa fa-lg fa-linkedin"></i></a></li>
+          </ul>
+		  </div>
+		</nav>
+
 
 <!-- this section includes the main image and the featured work projects -->
 		<article>
 			<div class="row">
 				<div class="col-md-12 main-image">
-					<img src="img/coding.jpg" alt="Workstation" class="img-responsive img-rounded">
+					<picture class="img-responsive img-rounded">
+						<source media="(min-width: 750px)" srcset="img/coding-1600-large.jpg 2x, img/coding-900-medium.jpg 1x" />
+	      		<source media="(max-width: 450px)" srcset="img/coding-600-small.jpg" />
+	      		<img src="img/coding.jpg" alt="Workstation" class="img-responsive img-rounded">
+	      	</picture>
 				</div>
 			</div>
 
@@ -47,45 +80,62 @@
 			<div class="row">
 				<div class="col-md-4 col-sm-4">
 					<figure>
-						<img src="img/pen_500.jpg" alt="Creative" class="img-responsive img-rounded project-image">
+
+						<picture class="img-responsive img-rounded project-image">
+							<source media="(min-width: 750px)" srcset="img/pen-1600-large.jpg 2x, img/pen-900-medium.jpg 1x" />
+		      		<source media="(max-width: 450px)" srcset="img/pen-600-small.jpg" />
+		      		<img src="img/pen.jpg" alt="Creative" class="img-responsive img-rounded project-image">
+	      		</picture>
+
 						<figcaption>
 							<p> Project A </p>
 							<a href="https://github.com/gayakrish/" target="_blank"> https://github.com/gayakrish </a>
 						</figcaption>
+
 		  		</figure>
 				</div>
 
 				<div class="col-md-4 col-sm-4">
 					<figure>
-						<img src="img/idea_500.jpg" alt="Innovative" class="img-responsive img-rounded project-image">
+
+						<picture class="img-responsive img-rounded project-image">
+							<source media="(min-width: 750px)" srcset="img/idea-1600-large.jpg 2x, img/idea-900-medium.jpg 1x" />
+			      	<source media="(max-width: 450px)" srcset="img/idea-600-small.jpg" />
+			      	<img src="img/idea.jpg" alt="Innovative" class="img-responsive img-rounded project-image">
+		      	</picture>
+
 						<figcaption>
 							<p> Project B </p>
 							<a href="https://github.com/gayakrish/" target="_blank"> https://github.com/gayakrish </a>
 						</figcaption>
+
 		 			</figure>
 				</div>
 
 				<div class="col-md-4 col-sm-4">
 					<figure>
-						<img src="img/eleventh_500.jpg" alt="On Time" class="img-responsive img-rounded project-image">
+
+						<picture class="img-responsive img-rounded project-image">
+							<source media="(min-width: 750px)" srcset="img/eleventh-1600-large.jpg 2x, img/eleventh-900-medium.jpg 1x" />
+			      	<source media="(max-width: 450px)" srcset="img/eleventh-600-small.jpg" />
+			      	<img src="img/eleventh.jpg" alt="On Time" class="img-responsive img-rounded project-image">
+		      	</picture>
+
 						<figcaption>
 							<p> Project C </p>
 							<a href="https://github.com/gayakrish/" target="_blank"> https://github.com/gayakrish </a>
 						</figcaption>
+
 			 		</figure>
 				</div>
 			</div>
-		</article>
 
-			<!-- includes the social media links -->
+			<!-- horizontal line to mark end of page -->
 			<footer>
-				<div id="social">
 					<hr>
-		      <a href="mailto:g3.krish@gmail.com" class="zocial-gmail">Gmail</a>
-		      <a href="http://linkedin.com/in/gayakrish" class="zocial-linkedin">Linkedin</a>
-		    </div>
 			</footer>
 
+		</article>
 	</div>
 </body>
 </html>
