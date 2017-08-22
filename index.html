@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
-	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <meta charset="utf-8">
 
-	<title> My Portfolio </title>
+  <title> My Portfolio </title>
 
-	<!-- different font families included -->
-	<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  <!-- different font families included -->
+  <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
   <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=zocial" />
 
-	<!-- css styling files -->
-	<link rel="stylesheet" href="css/style.css">
-	<!-- <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"> -->
+  <!-- css styling files -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"> -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -23,110 +24,105 @@
 </head>
 
 <body>
-	<div class="container-fluid">
+  <div class="container-fluid">
 
-<!-- this section includes the header - logo and name -->
-		<header class="header-content">
-			<div class="row">
-	    	<div class="col-md-2 logo">
-		    	<picture>
-						<source media="(min-width: 750px)" srcset="img/udacity_logo-1600-large.png 2x, img/udacity_logo-900-medium.png 1x" />
-		      	<source media="(max-width: 450px)" srcset="img/udacity_logo-600-small.png" />
-		      	<img src="img/udacity_logo.png" alt="Profile Image">
-	      	</picture>
-      	</div>
+    <!-- this section includes the header - logo and name -->
+    <header class="header-content">
+      <div class="row">
+        <div class="col-md-2 logo">
+          <!-- <picture> -->
+          <picture>
+            <source media="(min-width: 750px)" srcset="img/udacity_logo-1600-large.png 2x, img/udacity_logo-900-medium.png 1x" />
+            <source media="(max-width: 450px)" srcset="img/udacity_logo-600-small.png" />
+            <img src="img/udacity_logo.png" alt="Profile Image">
+          </picture>
+        </div>
 
-	    	<!-- <img src="img/udacity_logo.png" alt="Profile Image"> </div> -->
-	    	<div class="col-md-10 name">
-	   			<h1> Gayathri Krishnamurthy </h1>
-	   			<h4> Web Developer </h4>
-	  		</div>
-	  	</div>
-		</header>
+        <!-- <img src="img/udacity_logo.png" alt="Profile Image"> </div> -->
+        <div class="col-md-10 name">
+          <h1> Gayathri Krishnamurthy </h1>
+          <h4> Web Developer </h4>
+        </div>
+      </div>
+    </header>
 
-		<!-- navbar with social media icons -->
-		<nav class="navbar social">
-		  <div class="container-fluid navbar-right">
-				 <ul class="nav navbar-nav social">
-            <li><a href="http://www.facebook.com" target="_blank"><i class="fa fa-lg fa-facebook"></i></a></li>
-            <li><a href="skype:gaya_krish?call"><i class="fa fa-lg fa-skype"></i></a></li>
-            <li><a href="mailto:g3.krish@gmail.com"><i class="fa fa-lg fa-envelope-square"></i></a></li>
-            <li><a href="http://linkedin.com/in/gayakrish" target="_blank"><i class="fa fa-lg fa-linkedin"></i></a></li>
-          </ul>
-		  </div>
-		</nav>
+    <div class="row">
+      <div class="col-md-12">
+        <!-- navbar with social media icons -->
+        <nav class="navbar social">
+          <div class="container-fluid navbar-right">
+            <ul class="nav navbar-nav social">
+              <li><a href="http://www.facebook.com" target="_blank"><i class="fa fa-lg fa-facebook"></i></a></li>
+              <li><a href="skype:gaya_krish?call"><i class="fa fa-lg fa-skype"></i></a></li>
+              <li><a href="mailto:g3.krish@gmail.com"><i class="fa fa-lg fa-envelope-square"></i></a></li>
+              <li><a href="http://linkedin.com/in/gayakrish" target="_blank"><i class="fa fa-lg fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
 
+    <!-- this section includes the main image and the featured work projects -->
+    <article>
+      <div class="row">
+        <div class="col-md-12 main-image">
+          <img src="img/coding.jpg" srcset="img/coding-1600-large.jpg 2000w, img/coding-900-medium.jpg 900w, img/coding-600-small.jpg 450w" alt="Workstation" class="img-responsive img-rounded">
+        </div>
+      </div>
 
-<!-- this section includes the main image and the featured work projects -->
-		<article>
-			<div class="row">
-				<div class="col-md-12 main-image">
-					<picture class="img-responsive img-rounded">
-						<source media="(min-width: 750px)" srcset="img/coding-1600-large.jpg 2x, img/coding-900-medium.jpg 1x" />
-	      		<source media="(max-width: 450px)" srcset="img/coding-600-small.jpg" />
-	      		<img src="img/coding.jpg" alt="Workstation" class="img-responsive img-rounded">
-	      	</picture>
-				</div>
-			</div>
+      <div class="row">
+        <div class="col-md-12">
+          <h2> Featured Work </h2>
+        </div>
+      </div>
 
-			<div class="row">
-				<h2> Featured Work </h2>
-			</div>
+      <!-- column sizes resize based on the screen sizes -->
+      <div class="row">
+        <div class="col-md-4 col-sm-4">
+          <figure>
+            <img src="img/pen.jpg" srcset="img/pen-1600-large.jpg 2000w, img/pen-900-medium.jpg 900w, img/pen-600-small.jpg 450w" alt="Creative" class="img-responsive img-rounded project-image">
 
-			<!-- column sizes resize based on the screen sizes -->
-			<div class="row">
-				<div class="col-md-4 col-sm-4">
-					<figure>
-						<picture class="img-responsive img-rounded project-image">
-							<source media="(min-width: 750px)" srcset="img/pen-1600-large.jpg 2x, img/pen-900-medium.jpg 1x" />
-		      		<source media="(max-width: 450px)" srcset="img/pen-600-small.jpg" />
-		      		<img src="img/pen.jpg" alt="Creative" class="img-responsive img-rounded project-image">
-	      		</picture>
+            <figcaption>
+              <p> Project A </p>
+              <a href="https://github.com/gayakrish/" target="_blank"> https://github.com/gayakrish </a>
+            </figcaption>
+          </figure>
+        </div>
 
-						<figcaption>
-							<p> Project A </p>
-							<a href="https://github.com/gayakrish/" target="_blank"> https://github.com/gayakrish </a>
-						</figcaption>
-		  		</figure>
-				</div>
+        <div class="col-md-4 col-sm-4">
+          <figure>
+            <img src="img/idea.jpg" srcset="img/idea-1600-large.jpg 2000w, img/idea-900-medium.jpg 900w, img/idea-600-small.jpg 450w" alt="Innovative" class="img-responsive img-rounded project-image">
 
-				<div class="col-md-4 col-sm-4">
-					<figure>
-						<picture class="img-responsive img-rounded project-image">
-							<source media="(min-width: 750px)" srcset="img/idea-1600-large.jpg 2x, img/idea-900-medium.jpg 1x" />
-			      	<source media="(max-width: 450px)" srcset="img/idea-600-small.jpg" />
-			      	<img src="img/idea.jpg" alt="Innovative" class="img-responsive img-rounded project-image">
-		      	</picture>
+            <figcaption>
+              <p> Project B </p>
+              <a href="https://github.com/gayakrish/" target="_blank"> https://github.com/gayakrish </a>
+            </figcaption>
+          </figure>
+        </div>
 
-						<figcaption>
-							<p> Project B </p>
-							<a href="https://github.com/gayakrish/" target="_blank"> https://github.com/gayakrish </a>
-						</figcaption>
-		 			</figure>
-				</div>
+        <div class="col-md-4 col-sm-4">
+          <figure>
+            <img src="img/eleventh.jpg" srcset="img/eleventh-1600-large.jpg 2000w, img/eleventh-900-medium.jpg 900w, img/eleventh-600-small.jpg 450w" alt="On Time" class="img-responsive img-rounded project-image">
 
-				<div class="col-md-4 col-sm-4">
-					<figure>
-						<picture class="img-responsive img-rounded project-image">
-							<source media="(min-width: 750px)" srcset="img/eleventh-1600-large.jpg 2x, img/eleventh-900-medium.jpg 1x" />
-			      	<source media="(max-width: 450px)" srcset="img/eleventh-600-small.jpg" />
-			      	<img src="img/eleventh.jpg" alt="On Time" class="img-responsive img-rounded project-image">
-		      	</picture>
+            <figcaption>
+              <p> Project C </p>
+              <a href="https://github.com/gayakrish/" target="_blank"> https://github.com/gayakrish </a>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
 
-						<figcaption>
-							<p> Project C </p>
-							<a href="https://github.com/gayakrish/" target="_blank"> https://github.com/gayakrish </a>
-						</figcaption>
-			 		</figure>
-				</div>
-			</div>
+      <!-- horizontal line to mark end of page -->
+      <footer>
+        <div class="row">
+          <div class="col-md-12">
+            <hr>
+          </div>
+        </div>
+      </footer>
 
-			<!-- horizontal line to mark end of page -->
-			<footer>
-					<hr>
-			</footer>
-
-		</article>
-	</div>
+    </article>
+  </div>
 </body>
+
 </html>
